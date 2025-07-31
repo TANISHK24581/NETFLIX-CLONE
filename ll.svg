@@ -1,0 +1,15 @@
+<svg width="300" height="20" viewBox="0 0 300 20">
+    <path 
+      d="M0,10 C100,20 200,20 300,10"  /* Cubic Bézier curve for smooth bend */
+      stroke="url(#line-gradient)" 
+      stroke-width="2" 
+      fill="none"
+    />
+    <defs>
+      <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(255,0,0,0.3)" />
+        <stop offset="50%" stop-color="red" />
+        <stop offset="100%" stop-color="rgba(255,0,0,0.3)" />
+      </linearGradient>
+    </defs>
+</svg>

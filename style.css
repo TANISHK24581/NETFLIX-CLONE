@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif, Segeo UI;
+
+
+}
+
+.main {
+    background-image: url(ASSETS/IMAGES/bground.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    /* ✅ Makes image scale to cover screen */
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+
+
+
+    /* background-repeat: no-repeat; */
+}
+
+.main .box {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+}
+
+nav img {
+    width: 9.25rem;
+    height: 2.5rem;
+    position: relative;
+    z-index: 1;
+
+    /* background-color: rgb(78, 110, 16); */
+}
+
+
+nav {
+    /* background-color: red; */
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+.sign {
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.sign:hover {
+    background-color: rgb(203, 26, 35);
+
+}
+
+
+
+.lang {
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+    padding: 8px 30px;
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+    /* font-size: 14px; */
+}
+
+.button {}
+
+.content {
+
+
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.c1 {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+    line-height: 49px;
+
+
+}
+
+.c4 {
+    font-size: 55px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif, Segeo UI;
+
+
+}
+
+.c2 {
+    /* font-family: "Martel Sans", sans-serif, Segeo UI; */
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 32px;
+
+}
+
+.fill {
+    position: relative;
+    z-index: 1;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: -154px;
+}
+
+.fill button {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    /* border-radius: 5px; */
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: transform 0.s ease;
+    transition-delay: 0ms;
+    cursor: pointer;
+
+}
+
+.fill button:hover {
+    background-color: rgb(182, 24, 32);
+
+}
+
+
+
+
+.fill input {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    z-index: 1;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bolder; */
+    padding-left: 18px;
+    width: 25vw;
+    height: 6vh;
+    position: relative;
+    margin-right: 2px;
+    top: -2px;
+    background-color: rgba(23, 23, 23, 0.89);
+    /* border: 5px solid rgba(23, 23, 23, 0.9); */
+}
+
+
+.sv {
+    /* margin-top: 5px; */
+
+    position: relative;
+    top: 1px;
+}
+
+.sep {
+    height: 5px;
+    width: 100vw;
+    background-color: rgb(254, 29, 29);
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+main {
+    width: 100vw;
+
+
+    background-color: rgb(0, 0, 0);
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    max-width: 80vw;
+    margin: auto;
+    padding: 89px;
+    overflow: auto;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    /* Push scrollbar out of view */
+    margin-bottom: -20px;
+    scrollbar-width: thin;
+    /* Firefox */
+    scrollbar-color: rgba(23, 23, 23, 0.2) transparent;
+
+}
+
+.grid img {
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.texttt {
+    display: flex;
+    margin-left: 130px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    font-weight: 550;
+    color: white;
+}
+
+
+.h1 {
+    transition: transform 0.3s ease;
+    /* Smooth scaling */
+
+}
+
+.h1:hover {
+    transform: scale(1.09);
+    /* 5% enlargement */
+
+}
+
+main section {
+    width: 100vw;
+    background-color: black;
+}
+
+.more {
+    /* background-color: aqua; */
+    color: white;
+}
+
+.box1 {
+    width: 18vw;
+    text-align: left;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: auto;
+    color: white;
+    background-color: rgb(15, 15, 53);
+    /* background-color: #1a2145; */
+    margin: 5px;
+    border-radius: 15px;
+    height: 45vh;
+}
+
+.first1 {
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    color: white;
+}
+
+.second1 {
+    color: rgba(255, 255, 255, 0.592);
+    font-weight: 500;
+}
+
+.more {
+    padding-top: 52px;
+    margin-left: 130px;
+    font-size: 25px;
+    font-weight: 550;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    /* transition: transform 0.3s ease;
+    transition-delay: 10s; */
+    /* padding-right: -18px; */
+}
+
+/* .box1:hover{
+    transform: scale(1.09);
+} */
+.box1 img {
+
+    width: 5vw;
+    padding-left: 198px;
+    padding-top: 77px;
+}
+
+.img2 img {
+    width: 5vw;
+    padding-left: 198px;
+    padding-top: 65px;
+
+}
+
+.img3 img {
+    width: 5vw;
+    padding-left: 198px;
+    padding-top: 88px;
+
+
+}
+
+.img4 img {
+    width: 5vw;
+    padding-left: 198px;
+    padding-top: 55px;
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.faq {
+    margin-top: 50px;
+    max-width: 83vw;
+    margin: auto;
+}
+
+.faqq {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+
+}
+
+.faqques {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 24px;
+    color: white;
+    background-color: #2d2d2d;
+
+    cursor: pointer;
+    /* transition: all 1s ease;f */
+    /* transition-delay: 0ms; */
+
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.faqbox img {
+    height: 30px;
+
+}
+
+.footer1 {
+    color: white;
+    padding-bottom: 18px;
+}
+
+
+
+.footer2 button {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    /* border-radius: 5px; */
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: transform 0.s ease;
+    transition-delay: 0ms;
+    cursor: pointer;
+
+}
+
+.footer2 button:hover {
+    background-color: rgb(182, 24, 32);
+
+}
+
+
+
+.footer2 input {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px;
+    z-index: 1;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bolder; */
+    padding-left: 18px;
+    width: 45vw;
+    height: 6vh;
+    position: relative;
+    margin-right: 2px;
+    top: -2px;
+    background-color: rgba(23, 23, 23, 0.89);
+    /* border: 5px solid rgba(23, 23, 23, 0.9); */
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.contact {
+    color: rgba(255, 255, 255, 0.7);
+
+    padding: 79px 9vw;
+
+}
+
+.firstt {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer3 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 9vw;
+    row-gap: 9px;
+
+}
+
+.nu {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.buttonn {
+    padding: 85px 9vw;
+}
+
+.first41 {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 9vw;
+
+}
+
+.first411 {
+
+    color: rgba(255, 255, 255, 0.7);
+    padding: 35px 9vw;
+    padding-bottom: 150px;
+
+}
+
+/* ========== TABLET RESPONSIVE (max-width: 1024px) ========== */
+@media (max-width: 1024px) {
+
+    .c1,
+    .c4 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .c2 {
+        font-size: 16px;
+    }
+
+    .fill input {
+        width: 50vw;
+    }
+
+    .box1 {
+        width: 35vw;
+        height: auto;
+    }
+
+    .texttt,
+    .more {
+        margin-left: 5vw;
+        font-size: 20px;
+    }
+
+    /* ✅ Horizontal scrollable grid */
+    .grid {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        padding: 60px 20px;
+    }
+
+    .grid::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .grid::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+    }
+
+    .footer2 input {
+        width: 70vw;
+    }
+
+    .footer3 {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/* ========== MOBILE RESPONSIVE (max-width: 768px) ========== */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 16px;
+    }
+
+    .c1,
+    .c4 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .c2 {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .fill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -80px;
+    }
+
+    .fill input,
+    .fill button {
+        width: 85vw;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 85vw;
+        height: auto;
+    }
+
+    .box1 img,
+    .img2 img,
+    .img3 img,
+    .img4 img {
+        width: 12vw;
+        padding-left: 0;
+        padding-top: 16px;
+        margin: auto;
+    }
+
+    .faqbox {
+        font-size: 18px;
+        padding: 16px;
+    }
+
+    .footer2 input,
+    .footer2 button {
+        width: 85vw;
+        font-size: 18px;
+    }
+
+    .footer3 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .texttt,
+    .more {
+        margin-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .first1 {
+        text-align: center;
+    }
+
+    .footer1,
+    .firstt,
+    .nu,
+    .contact {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* ✅ Keep .grid horizontal */
+    .grid {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        padding: 40px 10px;
+    }
+
+    .grid::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    .grid::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+    }
+}
+
+/* ========== SMALL DEVICES (max-width: 480px) ========== */
+@media (max-width: 480px) {
+
+    .c1,
+    .c4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .c2 {
+        font-size: 13px;
+    }
+
+    .fill input,
+    .fill button {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    nav img {
+        width: 7rem;
+        height: auto;
+    }
+
+    .faqbox {
+        font-size: 16px;
+    }
+
+    .footer2 input,
+    .footer2 button {
+        font-size: 14px;
+    }
+
+    /* ✅ Horizontal scrollable grid */
+    .grid {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        justify-content: flex-start;
+        padding: 30px 10px;
+    }
+
+    .grid::-webkit-scrollbar {
+        height: 4px;
+    }
+
+    .grid::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+    }
+}
